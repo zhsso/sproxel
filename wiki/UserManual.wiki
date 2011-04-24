@@ -1,0 +1,7 @@
+#summary Sproxel user manual.
+
+= Modeling with Sproxel =
+
+==Keyboard Bindings==
+
+==Mouse Controls==
