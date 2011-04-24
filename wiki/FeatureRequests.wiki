@@ -1,0 +1,24 @@
+#summary Features soon-to-be-added to the Sproxel modeling package.
+
+= Feature Requests =
+  * "fg/bg" color, press a key to toggle between them (photoshop keys)
+
+  * Clickable palette (not a separate popup)
+  
+  * Click to fill in an X,Y,or Z slice.
+
+  * Shift everything up, down, left, right (with and w/o wrap)
+
+  * Hide 2d grid,
+
+  * Draw bounding box
+
+  * Different grid sizes
+
+  * 3d selection -- all, slice, click 2 corners,
+
+  * Cut/paste 
+
+  * "Up/Down" a subdivision (resolution) level
+
+  * 2d flood-fill in x,y, or z
