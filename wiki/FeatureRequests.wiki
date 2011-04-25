@@ -38,3 +38,7 @@
   * Polygon model export (OBJ, etc)
 
   * Hide cursor (the one that pops up when arrow keys are pressed)
+
+  * Cool "Voxatron"-style floor plane
+
+  * Background color picker
