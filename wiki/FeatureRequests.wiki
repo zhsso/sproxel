@@ -1,6 +1,8 @@
 #summary Features soon-to-be-added to the Sproxel modeling package.
 
 = Feature Requests =
+  * Undo/redo
+
   * "fg/bg" color, press a key to toggle between them (photoshop keys)
 
   * Clickable palette (not a separate popup)
@@ -15,10 +17,24 @@
 
   * Different grid sizes
 
-  * 3d selection -- all, slice, click 2 corners,
+  * 3d selection -- all, slice, click 2 corners, etc
 
-  * Cut/paste 
+  * Cut/Copy/Paste 
 
   * "Up/Down" a subdivision (resolution) level
 
   * 2d flood-fill in x,y, or z
+
+  * Tetris-style block dropping
+
+  * Infinitely-expanding bounding box
+
+  * 2d image import
+
+  * Sprite animation timeline
+
+  * Proper geometric construction (no overlap)
+
+  * Polygon model export (OBJ, etc)
+
+  * Hide cursor (the one that pops up when arrow keys are pressed)
