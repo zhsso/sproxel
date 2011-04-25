@@ -11,7 +11,7 @@
 
   * Shift everything up, down, left, right (with and w/o wrap)
 
-  * Hide 2d grid,
+  * ~~Hide 2d grid~~
 
   * Draw bounding box
 
