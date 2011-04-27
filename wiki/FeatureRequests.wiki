@@ -13,7 +13,7 @@
 
   * ~~Hide 2d grid~~
 
-  * Draw bounding box
+  * ~~Draw bounding box~~  - Correctly draw bounding box lines
 
   * Different grid sizes
 
