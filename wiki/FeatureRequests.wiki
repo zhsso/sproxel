@@ -42,3 +42,5 @@
   * Cool "Voxatron"-style floor plane
 
   * Background color picker
+
+  * Flip / Flop / Floop(?)
