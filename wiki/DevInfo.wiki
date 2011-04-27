@@ -8,20 +8,26 @@ The easiest way to build sproxel is to use Qt Creator. But here are minimal buil
 
 Install IlmBase from [http://www.openexr.com/downloads.html the OpenEXR project]. Unpack the archive and run:
 
- ./configure
- make install
+{{{
+./configure
+make install
+}}}
 
 Install QT sdk from [http://qt.nokia.com/downloads/ Qt Download Page] if you don't already have it installed with your distro.
 
 If you installed IlmBase in a non-standard location, make sure pkgconfig can find it. You may need to set PKG_CONFIG_PATH. If you run:
 
- pkg-config --cflags IlmBase
+{{{
+pkg-config --cflags IlmBase
+}}}
 
 It should not give you an error.
 
 Check out the sproxel code and run:
- qmake
- make
+{{{
+qmake
+make
+}}}
 
 That should work.
 
