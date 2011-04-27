@@ -4,6 +4,7 @@
 
 ----
 
+
 ==Mouse Controls==
 The mouse controls the movement of the camera and the creation and manipulation of filled cells in the voxel grid.
 
@@ -35,3 +36,13 @@ Cells are created by shooting a ray through the pixel you click, intersecting it
 
 ==Keyboard Controls==
 WIP: The quick-quick summary is that the holding *ALT* and using the *ARROW KEYS* moves the camera, the *ARROW KEYS* on their own move the cursor (it adjusts according to the direction your camera is facing), *CTRL* + *UP/DOWN ARROW* shifts the cursor in camera depth, and the *SPACE BAR* fills the voxel with the current color.
+
+== Misc Controls ==
+
+ * CTRL-C - Bring up color picker (this will change)
+ * G - Toggle voxel grid
+ * CTRL-G - Toggle ground plane grid
+
+== Mac Note ==
+
+Anywhere it says 'CTRL', use Command instead.
