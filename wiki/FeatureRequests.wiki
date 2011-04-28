@@ -1,7 +1,7 @@
 #summary Features soon-to-be-added to the Sproxel modeling package.
 
 = Feature Requests =
-  * ~~Undo/redo~~  - Finish up the command merging.
+  * ~~Undo/redo  -  Finish up the command merging.~~
 
   * "fg/bg" color, press a key to toggle between them (photoshop keys)
 
