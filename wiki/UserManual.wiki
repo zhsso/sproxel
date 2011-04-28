@@ -38,6 +38,8 @@ WIP: The quick-quick summary is that the holding *ALT* and using the *ARROW KEYS
  * *CTRL* + *N* - Bring up new file dialog.
  * *CTRL* + *S* - Save current voxel grid.
  * *CTRL* + *O* - Open voxel grid from disk.
+ * *CTRL* + *Z* - Undo
+ * *CTRL* + *SHIFT* + *Z* - Redo
  * *CTRL* + *C* - Bring up color picker (this will change).
  * *CTRL* + *G* - Toggle ground plane grid visibility.
  * *G* - Toggle voxel grid visibility.
