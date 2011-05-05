@@ -3,11 +3,11 @@
 = Feature Requests =
   * ~~Undo/redo  -  Finish up the command merging.~~
 
-  * "fg/bg" color, press a key to toggle between them (photoshop keys)
+  * ~~"fg/bg" color, press a key to toggle between them (photoshop keys)~~
 
   * Clickable palette (not a separate popup)
   
-  * Click to fill in an X,Y,or Z slice.
+  * ~~Click to fill in an X,Y,or Z slice.~~ - Could use a XYZ slice display.
 
   * Shift everything up, down, left, right (with and w/o wrap)
 
@@ -23,7 +23,7 @@
 
   * "Up/Down" a subdivision (resolution) level
 
-  * 2d flood-fill in x,y, or z
+  * ~~2d flood-fill in x,y, or z~~
 
   * Tetris-style block dropping
 
