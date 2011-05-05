@@ -24,7 +24,7 @@ Cells are created by shooting a ray through the pixel you click, intersecting it
   * *CTRL* + *LEFT MOUSE BUTTON* - Replace the first voxel the ray intersects  with the current color.
   * *CTRL* + *MIDDLE MOUSE BUTTON* - Flood fill (paint bucket) the intersected voxel and its neighbors with the current color.
   * *CTRL* + *RIGHT MOUSE BUTTON* - Sample your current color (eye dropper) from the first voxel intersected.
-  * *SHIFT* + *LEFT MOUSE BUTTON* - Fill an entire slice of the grid - WIP (only works horizontally for now).
+  * *SHIFT* + *LEFT MOUSE BUTTON* - Fill an entire slice of the grid.  The slice is determined by the *ALT* + *X|Y|Z* button combination described below.
 
 ----
 
@@ -42,7 +42,12 @@ WIP: The quick-quick summary is that the holding *ALT* and using the *ARROW KEYS
  * *CTRL* + *SHIFT* + *Z* - Redo
  * *CTRL* + *C* - Bring up color picker (this will change).
  * *CTRL* + *G* - Toggle ground plane grid visibility.
+ * *ALT* + *X* - Set the X plane as your working plane.
+ * *ALT* + *Y* - Set the Y plane as your working plane.
+ * *ALT* + *Z* - Set the Z plane as your working plane.
  * *G* - Toggle voxel grid visibility.
+ * *F* - Frame the voxels in the scene (or the voxel grid if there are none).
+ * *X* - Swap foreground and background colors.
 
 ----
 
