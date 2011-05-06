@@ -11,7 +11,7 @@
 
   * ~~Click to fill in an X,Y,or Z slice.~~ - Could use a XYZ slice display.
 
-  * Shift everything up, down, left, right (with and w/o wrap)
+  * ~~Shift everything up, down, left, right (with and w/o wrap)~~
 
   * ~~Hide 2d grid~~
 
