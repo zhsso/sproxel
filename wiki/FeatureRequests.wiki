@@ -23,7 +23,7 @@
 
   * Cut/Copy/Paste 
 
-  * ~~"Up/Down" a subdivision (resolution) level~~
+  * ~~"Up/Down" a subdivision (resolution) level~~  Could use better UI/accessibility
 
   * ~~2d flood-fill in x,y, or z~~
 
