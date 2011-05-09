@@ -23,7 +23,7 @@
 
   * Cut/Copy/Paste 
 
-  * "Up/Down" a subdivision (resolution) level
+  * ~~"Up/Down" a subdivision (resolution) level~~
 
   * ~~2d flood-fill in x,y, or z~~
 
@@ -43,7 +43,7 @@
 
   * Cool "Voxatron"-style floor plane
 
-  * Background color picker
+  * Ability to change GL window background color
 
   * Flip / Flop / Floop(?)
 
