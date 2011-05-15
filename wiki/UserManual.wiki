@@ -34,7 +34,7 @@ WIP: The quick-quick summary is that the holding *ALT* and using the *ARROW KEYS
 ----
 
 == Misc Controls ==
-
+(<font color="#880000">Red</font> entries will be present in the next release.)
  * *CTRL* + *N* - Bring up new file dialog.
  * *CTRL* + *S* - Save current voxel grid.
  * *CTRL* + *O* - Open voxel grid from disk.
@@ -47,6 +47,7 @@ WIP: The quick-quick summary is that the holding *ALT* and using the *ARROW KEYS
  * *ALT* + *Z* - Set the Z plane as your working plane.
  * *G* - Toggle voxel grid visibility.
  * *F* - Frame the voxels in the scene (or the voxel grid if there are none).
+ * <font color="#880000"> *CTRL* + *F*</font> - Frame the entire voxel grid regardless of the voxels in scene.
  * *X* - Swap foreground and background colors.
 
 ----
