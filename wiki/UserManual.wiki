@@ -15,16 +15,25 @@ The camera controls are identical to that in Autodesk's Maya.  Holding the *ALT*
   * *ALT* + *RIGHT MOUSE BUTTON* - Translate the camera towards its look point (feels like a scale).
   * *ALT* + *LEFT MOUSE BUTTON* + *MIDDLE MOUSE BUTTON* - Scale (same as RMB).
 
-
+<br>
 *Cell Manipulation:*
-Cells are created by shooting a ray through the pixel you click, intersecting it with the voxel grid, and modifying the grid cells the ray intersects.
+Cells are created by shooting a ray through the pixel you click, intersecting it with the voxel grid, and modifying the grid cells the ray intersects.  A configuration system to re-map these mouse combinations is in the works (and on the [http://code.google.com/p/sproxel/wiki/FeatureRequests Feature Request] wiki).
 
-  * *LEFT MOUSE BUTTON* - Place a cell of the current color in the last grid cell the ray intersects before it hits another filled cell.  This can be thought of as shooting a wad of paint into the voxel grid.
-  * *RIGHT MOUSE BUTTON* - Clear the color in the first colored cell the ray intersects.
-  * *CTRL* + *LEFT MOUSE BUTTON* - Replace the first voxel the ray intersects  with the current color.
-  * *CTRL* + *MIDDLE MOUSE BUTTON* - Flood fill (paint bucket) the intersected voxel and its neighbors with the current color.
-  * *CTRL* + *RIGHT MOUSE BUTTON* - Sample your current color (eye dropper) from the first voxel intersected.
-  * *SHIFT* + *LEFT MOUSE BUTTON* - Fill an entire slice of the grid.  The slice is determined by the *ALT* + *X|Y|Z* button combination described below.
+  * *LEFT MOUSE BUTTON* - Operate the tool selected in the toolbar.
+  * *RIGHT MOUSE BUTTON* (Erase tool) - Clear the color in the first colored cell the ray intersects.
+  * *MIDDLE MOUSE BUTTON* (Pixel-Sample tool) - Sample the palette's foreground  color from the first voxel intersected (eye dropper).
+  * *CTRL* + *LEFT MOUSE BUTTON* (Replace tool) - Replace the first voxel the ray intersects  with the current color.
+
+<br>
+*Toolbar:*
+All tools selected in the toolbar are operated by a *LEFT CLICK* in the modeling window.  
+
+  * *Splat tool (green splat icon)* - Place a cell of the current color in the last grid cell the ray intersects before it hits another filled cell.  This can be thought of as shooting a wad of paint into the voxel grid.
+  * *Replace tool (yellow pencil icon)* - Replace the first voxel the ray intersects with the current color.
+  * *Flood-fill tool (paint bucket icon)* - Replace the color of the intersected voxel and all neighboring voxels of the same color with the palette's foreground color.
+  * *Pixel-Sample tool (eye dropper icon)* - Sample the intersected voxel's color into the palette's foreground color.
+  * *Erase tool (eraser icon)* - Clear the color for the intersected voxel.
+  * *Slab tool (filled plane in grid icon)* - Set an entire slice of voxels to the palette's foreground color.  If a filled voxel is intersected fill from that location, otherwise fill from the first voxel intersected on the edge.  The orientation of the slab is controlled by setting the current axis (*ALT*+*X* -or- *ALT*+*Y* -or- *ALT*+*Z*).
 
 ----
 
@@ -35,6 +44,18 @@ WIP: The quick-quick summary is that the holding *ALT* and using the *ARROW KEYS
 
 == Misc Controls ==
 (<font color="#880000">Red</font> entries will be present in the next release.)
+ * *Q* - Change to the Splat tool.
+ * *W* - Change to the Replace tool.
+ * *E* - Change to the Flood-fill tool.
+ * *R* - Change to the Pixel-sample tool.
+ * *T* - Change to the Erase tool.
+ * *Y* - Change to the Slab tool.
+
+ * *X* - Swap foreground and background colors.
+ * *G* - Toggle voxel grid visibility.
+ * *F* - Frame the voxels in the scene (or the voxel grid if there are none).
+ * *CTRL* + *F* - Frame the entire voxel grid regardless of the voxels in scene.
+
  * *CTRL* + *N* - Bring up new file dialog.
  * *CTRL* + *S* - Save current voxel grid.
  * *CTRL* + *O* - Open voxel grid from disk.
@@ -45,10 +66,6 @@ WIP: The quick-quick summary is that the holding *ALT* and using the *ARROW KEYS
  * *ALT* + *X* - Set the X plane as your working plane.
  * *ALT* + *Y* - Set the Y plane as your working plane.
  * *ALT* + *Z* - Set the Z plane as your working plane.
- * *G* - Toggle voxel grid visibility.
- * *F* - Frame the voxels in the scene (or the voxel grid if there are none).
- * <font color="#880000"> *CTRL* + *F*</font> - Frame the entire voxel grid regardless of the voxels in scene.
- * *X* - Swap foreground and background colors.
 
 ----
 
