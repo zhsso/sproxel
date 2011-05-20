@@ -15,7 +15,6 @@ The camera controls are identical to that in Autodesk's Maya.  Holding the *ALT*
   * *ALT* + *RIGHT MOUSE BUTTON* - Translate the camera towards its look point (feels like a scale).
   * *ALT* + *LEFT MOUSE BUTTON* + *MIDDLE MOUSE BUTTON* - Scale (same as RMB).
 
-<br>
 *Cell Manipulation:*
 Cells are created by shooting a ray through the pixel you click, intersecting it with the voxel grid, and modifying the grid cells the ray intersects.  A configuration system to re-map these mouse combinations is in the works (and on the [http://code.google.com/p/sproxel/wiki/FeatureRequests Feature Request] wiki).
 
@@ -24,8 +23,9 @@ Cells are created by shooting a ray through the pixel you click, intersecting it
   * *MIDDLE MOUSE BUTTON* (Pixel-Sample tool) - Sample the palette's foreground  color from the first voxel intersected (eye dropper).
   * *CTRL* + *LEFT MOUSE BUTTON* (Replace tool) - Replace the first voxel the ray intersects  with the current color.
 
-<br>
-*Toolbar:*
+----
+
+==Toolbar==
 All tools selected in the toolbar are operated by a *LEFT CLICK* in the modeling window.  
 
   * *Splat tool (green splat icon)* - Place a cell of the current color in the last grid cell the ray intersects before it hits another filled cell.  This can be thought of as shooting a wad of paint into the voxel grid.
@@ -34,6 +34,11 @@ All tools selected in the toolbar are operated by a *LEFT CLICK* in the modeling
   * *Pixel-Sample tool (eye dropper icon)* - Sample the intersected voxel's color into the palette's foreground color.
   * *Erase tool (eraser icon)* - Clear the color for the intersected voxel.
   * *Slab tool (filled plane in grid icon)* - Set an entire slice of voxels to the palette's foreground color.  If a filled voxel is intersected fill from that location, otherwise fill from the first voxel intersected on the edge.  The orientation of the slab is controlled by setting the current axis (*ALT*+*X* -or- *ALT*+*Y* -or- *ALT*+*Z*).
+
+----
+
+==Palette==
+Someday this will have a bunch of color swatches to choose from, potentially an image to sample from, and the ability to save all your settings.  For now, you can *LEFT CLICK* in the foreground or background color boxes to set the colors.
 
 ----
 
