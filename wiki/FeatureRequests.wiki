@@ -33,8 +33,6 @@
 
   * Brushes
 
-  * Dirty bit (save on exit, etc)
-
   * Command-line loading
 
   * Configurable keys & mouse shortcuts.
@@ -44,6 +42,8 @@
   * ~~Draw bounding box~~  - Correctly draw bounding box lines
 
   * ~~"Up/Down" a subdivision (resolution) level~~  - Could use better UI/accessibility
+
+  * ~~Dirty bit (save on exit, etc)~~
 
   * ~~Click to fill in an X,Y,or Z slice.~~ - ~~Could use a XYZ slice display.~~
 
