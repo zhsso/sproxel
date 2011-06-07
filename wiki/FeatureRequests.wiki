@@ -21,8 +21,6 @@
 
   * Proper geometric construction (no overlap)
 
-  * Polygon model export (OBJ, etc)
-
   * Hide cursor (the one that pops up when arrow keys are pressed)
 
   * Cool "Voxatron"-style floor plane
@@ -38,6 +36,8 @@
   * Configurable keys & mouse shortcuts.
 
   * Different display grid sizes
+
+  * ~~Polygon model export (OBJ, etc)~~  - Cull internal polygons!
 
   * ~~Draw bounding box~~  - Correctly draw bounding box lines
 
