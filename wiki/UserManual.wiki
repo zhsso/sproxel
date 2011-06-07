@@ -72,8 +72,19 @@ WIP: The quick-quick summary is that the holding *ALT* and using the *ARROW KEYS
  * *ALT* + *Y* - Set the Y plane as your working plane.
  * *ALT* + *Z* - Set the Z plane as your working plane.
 
-----
-
 == Mac Note ==
 
 Anywhere it says *CTRL*, use *Command* instead.
+
+<br>
+
+= Sproxel File I/O =
+
+----
+Sproxel has two primary file formats.  The *CSV* (comma-separated value) file and the *enhanced PNG* file.  It can also export OBJ & corresponding MTL files.
+
+Saving *enhanced PNG file format* files creates standard PNG image files, but adds three important tags to the PNG tEXT metadata chunk.  These tags, "VoxelGridDimX", "VoxelGridDimY", and "VoxelGridDimZ" describe the voxel grid resolution.  The image itself contains XY slices starting at the back of the volume, progressing forward (it's possible future versions of this file format will offer other options).  Code to read and write these using QT is located in the GlModelWidget class loadGridPNG & saveGridPNG.  This file format is the default type when saving.
+
+The *CSV file format* is a simple text format that stores four unsigned 8-bit values per voxel cell.  It is arranged as XZ slices starting at the top of the voxel volume, moving towards the bottom.  Functions for reading and writing are in the GlModelWidget class as loadGridCSV and saveGridCSV.  This file format can be selected from the File->Save dialog type pulldown.
+
+Exporting a file to the *OBJ file format* is done by clicking File->Export and selecting OBJ from type type pulldown.  This file format contains a polygonal representation of the voxel grid as ASCII text.  A *MTL* file is automatically created with the same filename prefix as the *OBJ* file, and is referenced by the *OBJ*.  This file contains color information for the voxel grid.  These OBJs have been successfully imported into Maya 2012, but have not yet been tested in other software.
