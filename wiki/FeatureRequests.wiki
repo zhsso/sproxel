@@ -29,6 +29,8 @@
 
   * Flip / Flop / Floop(?)
 
+  * Rotation around major axes.
+
   * Brushes
 
   * Command-line loading
