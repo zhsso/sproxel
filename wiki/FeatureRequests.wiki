@@ -25,8 +25,6 @@
 
   * Cool "Voxatron"-style floor plane
 
-  * Ability to change GL window background color
-
   * Flip / Flop / Floop(?)
 
   * Rotation around major axes.
@@ -37,7 +35,14 @@
 
   * Configurable keys & mouse shortcuts.
 
-  * Different display grid sizes
+  * Dialog to change a bunch of UI settings.  Like...
+  * Fixed lighting direction
+  * GL window background color
+  * Voxels with smoothed normals
+  * Grid/cell sizes
+  * Axis of operation
+
+  * Ortho projection widget (from all 6 directions)
 
   * ~~Polygon model export (OBJ, etc)~~  - Cull internal polygons!
 
