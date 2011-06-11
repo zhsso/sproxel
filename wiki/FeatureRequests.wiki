@@ -13,8 +13,6 @@
 
   * Infinitely-expanding bounding box
 
-  * 2d image import
-
   * Image planes in all 3 axes of model view as reference.
 
   * Sprite animation timeline
@@ -25,13 +23,9 @@
 
   * Cool "Voxatron"-style floor plane
 
-  * Flip / Flop / Floop(?)
-
   * Rotation around major axes.
 
   * Brushes
-
-  * Command-line loading
 
   * Configurable keys & mouse shortcuts.
 
@@ -49,6 +43,12 @@
   * ~~Draw bounding box~~  - Correctly draw bounding box lines
 
   * ~~"Up/Down" a subdivision (resolution) level~~  - Could use better UI/accessibility
+
+  * ~~Flip / Flop / Floop (mirroring around each axis)~~ 
+
+  * ~~Command-line loading~~
+
+  * ~~2d image import~~
 
   * ~~Dirty bit (save on exit, etc)~~
 
