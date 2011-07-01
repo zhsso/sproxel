@@ -29,20 +29,20 @@
 
   * Configurable keys & mouse shortcuts.
 
-  * Dialog to change a bunch of UI settings.  Like...
-  * Fixed lighting direction
-  * GL window background color
-  * Voxels with smoothed normals
-  * Grid/cell sizes
-  * Axis of operation
-
   * Ortho projection widget (from all 6 directions)
 
-  * ~~Polygon model export (OBJ, etc)~~  - Cull internal polygons!
+  * ~~Dialog to change a bunch of UI settings.  Like...~~
+  * Fixed lighting direction
+  * Voxels with smoothed normals
+  * Axis of operation
+  * ~~GL window background color~~
+  * ~~Grid/cell sizes~~
 
   * ~~Draw bounding box~~  - Correctly draw bounding box lines
 
   * ~~"Up/Down" a subdivision (resolution) level~~  - Could use better UI/accessibility
+
+  * ~~Polygon model export (OBJ, etc)~~  - ~~Cull internal polygons!~~
 
   * ~~Flip / Flop / Floop (mirroring around each axis)~~ 
 
