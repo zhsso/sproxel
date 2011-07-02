@@ -23,8 +23,6 @@
 
   * Cool "Voxatron"-style floor plane
 
-  * Rotation around major axes.
-
   * Brushes
 
   * Configurable keys & mouse shortcuts.
@@ -43,6 +41,8 @@
   * ~~"Up/Down" a subdivision (resolution) level~~  - Could use better UI/accessibility
 
   * ~~Polygon model export (OBJ, etc)~~  - ~~Cull internal polygons!~~
+
+  * ~~Rotation around major axes.~~
 
   * ~~Flip / Flop / Floop (mirroring around each axis)~~ 
 
