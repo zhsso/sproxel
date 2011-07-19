@@ -1,7 +1,13 @@
 #summary Features soon-to-be-added to the Sproxel modeling package.
 
-= Feature Requests =
+= Feature Requests : Round 1 =
   * Clickable palette (not a separate popup)
+
+  * Camera-snapping (like maya's camera cube).
+
+  * Face-hoover for ray intersection or a ghost voxel for next intersection.
+
+  * Photoshop-style voxel grid resizing.  Make a full dialog!
 
   * Palette sampling from a loaded image.
 
@@ -63,3 +69,35 @@
   * ~~"fg/bg" color, press a key to toggle between them (photoshop keys)~~
 
   * ~~2d flood-fill in x,y, or z~~
+
+
+= Feature Requests : Artists' Perspective =
+  * Additional options for the Flood tool: only operating within an active slice, in 3D (contiguous) and scene-wide (non-contiguous).
+
+  * Pasting of pixel graphics (Edit > Paste from 2D file).
+
+  * Slices, including options to hide everything behind the active slice, in front of the active slice or to hide both sides.  Easy to switch in and out of the mode as well.
+
+  * Selection tool.  (3 click process)
+
+  * Move, rotate, and scale (on selections)
+  
+  * Copy, cut and paste (on selections)
+
+  * Extrusion tool for selections.
+
+  * Click+drag tool operation.
+
+  * Line & rectangle
+
+  * Multiple voxel grids (animation and/or layers)
+
+  * Indexed color mode voxel grids
+
+  * New project file that contains palettes, multiple grids, and per-voxel meta.
+
+  * Palette objects + saving/loading/customizing, etc.
+
+  * Paint3D import (3MP).  Documented here: http://www.paint3d.net/forum/viewtopic.php?f=5&t=46
+
+  * Visual handles for many tools.  Mirror, rotate, move, etc.
