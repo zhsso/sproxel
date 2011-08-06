@@ -101,3 +101,5 @@
   * Paint3D import (3MP).  Documented here: http://www.paint3d.net/forum/viewtopic.php?f=5&t=46
 
   * Visual handles for many tools.  Mirror, rotate, move, etc.
+
+  * A "builder brush" or a moving grid you can modify things in.
