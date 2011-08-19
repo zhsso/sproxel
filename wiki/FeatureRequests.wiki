@@ -35,6 +35,8 @@
 
   * Ortho projection widget (from all 6 directions)
 
+  * OBJ export option for individual cubes in addition to seamless mesh.
+
   * ~~Dialog to change a bunch of UI settings.  Like...~~
   * Fixed lighting direction
   * Voxels with smoothed normals
