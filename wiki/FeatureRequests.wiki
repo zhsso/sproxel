@@ -1,11 +1,11 @@
 #summary Features soon-to-be-added to the Sproxel modeling package.
 
 = Feature Requests : Round 1 =
-  * Clickable palette (not a separate popup)
+  * ~~Clickable palette (not a separate popup)~~
 
   * Camera-snapping (like maya's camera cube).
 
-  * Face-hoover for ray intersection or a ghost voxel for next intersection.
+  * ~~Face-hoover for ray intersection or a ghost voxel for next intersection.~~
 
   * Photoshop-style voxel grid resizing.  Make a full dialog!
 
@@ -37,12 +37,19 @@
 
   * OBJ export option for individual cubes in addition to seamless mesh.
 
+  * ~~Python plug-ins:~~
+    * ~~Custom exporters~~
+    * ~~Custom importers~~
+    * ~~Custom UI~~ - via !PySide, needs more testing
+    * Custom tools
+    * Rendering custom objects in Sproxel viewports
+
   * ~~Dialog to change a bunch of UI settings.  Like...~~
-  * Fixed lighting direction
-  * Voxels with smoothed normals
-  * Axis of operation
-  * ~~GL window background color~~
-  * ~~Grid/cell sizes~~
+    * Fixed lighting direction
+    * ~~Voxels with smoothed normals~~
+    * Axis of operation
+    * ~~GL window background color~~
+    * ~~Grid/cell sizes~~
 
   * ~~Draw bounding box~~  - Correctly draw bounding box lines
 
@@ -90,13 +97,13 @@
 
   * Click+drag tool operation.
 
-  * Line & rectangle
+  * ~~Line~~ & rectangle
 
   * Multiple voxel grids (animation and/or layers)
 
-  * Indexed color mode voxel grids
+  * ~~Indexed color mode voxel grids~~
 
-  * New project file that contains palettes, multiple grids, and per-voxel meta.
+  * ~~New project file that contains palettes, multiple grids, and per-voxel meta.~~
 
   * Palette objects + saving/loading/customizing, etc.
 
