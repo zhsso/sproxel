@@ -47,7 +47,7 @@
   * ~~Dialog to change a bunch of UI settings.  Like...~~
     * Fixed lighting direction
     * ~~Voxels with smoothed normals~~
-    * Axis of operation
+    * ~~Axis of operation~~
     * ~~GL window background color~~
     * ~~Grid/cell sizes~~
 
@@ -85,7 +85,7 @@
 
   * Pasting of pixel graphics (Edit > Paste from 2D file).
 
-  * Slices, including options to hide everything behind the active slice, in front of the active slice or to hide both sides.  Easy to switch in and out of the mode as well.
+  * ~~Slices, including options to hide everything behind the active slice, in front of the active slice or to hide both sides.  Easy to switch in and out of the mode as well.~~
 
   * Selection tool.  (3 click process)
 
@@ -107,8 +107,8 @@
 
   * Palette objects + saving/loading/customizing, etc.
 
-  * Paint3D import (3MP).  Documented here: http://www.paint3d.net/forum/viewtopic.php?f=5&t=46
+  * ~~Paint3D import/export (3MP).  Documented here: http://www.paint3d.net/forum/viewtopic.php?f=5&t=46 ~~
 
   * Visual handles for many tools.  Mirror, rotate, move, etc.
 
-  * A "builder brush" or a moving grid you can modify things in.
+  * ~~A "builder brush" or a moving grid you can modify things in.~~ Slicing does it.
